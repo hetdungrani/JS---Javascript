@@ -5,3 +5,9 @@ var age = 25;
 let month;
 console.log(uID);
 console.table({uID, user, age, months:"j", month});
+
+//const - not changeable
+//  const uID = 123
+//let - recommended
+//  let username = "het"
+//var - create issue in block and functional scope

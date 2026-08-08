@@ -1,3 +1,12 @@
+// Basic
+//  - >
+//  - <
+//  - ==
+//  - >=
+//  - <=
+//  - !=
+//  - ===
+
 console.log(1 == 2);
 console.log(1 <= 2);
 console.log(1 >= 3);
@@ -5,6 +14,8 @@ console.log(1 != 3);
 console.log(1 === 2);
 console.log(1 < 2);
 console.log(1 > 3);
+
+// Tricky ----- Mostly Avoid
 
 console.log("1"+ 2);
 console.log(3 + "2");

@@ -7,3 +7,10 @@ let submarks=Number(marks)
 
 console.log(submarks)
 console.log(typeof submarks)
+
+// first value convert with (Number) type
+// "33" => number
+// "33abc" => NaN
+// true => 1
+// false => 0
+
