@@ -42,3 +42,11 @@ function myName2() {
   console.log("E");
   console.log("T");
 }
+
+const sumTwo = (n1, n2) => n1 + n2;
+
+const sumTwoString = (s1, s2) => [{ username: s1 }, { username: s2 }];
+
+((name) => {
+  console.log(`Hey, I am ${name}`);
+})("Het"); // IIFE (Immediately Invoked Function Expression)
