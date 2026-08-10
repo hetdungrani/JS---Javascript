@@ -1,0 +1,28 @@
+-------------------------truthy values--------------------------
+' '
+" "
+'false'
+'0'
+[]
+function(){}
+
+----------------------falsy values-------------------------------
+False
+0
+-0
+Bigint 0n
+""
+null
+undefined
+NaN
+
+---------------------Nullish Coalescing Operator (??)-------------------
+let value;
+# value= 5 ?? 7 
+console.log(value) // 5    
+value= null ?? 7
+console.log(value) // 7
+
+---------------------terniry Operator--------------------------------
+let price= 20
+price >= 15 ? console.log("less than 16") : console.log("more than 15")
